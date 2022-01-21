@@ -1,0 +1,38 @@
+{
+	"svguse": {
+    "scope": "html",
+    "prefix": "svguse",
+    "body": [
+      "<svg class=\"$1\">",
+      "  <use xlink:href=\"img/sprite.svg#$2\"></use>",
+      "</svg>"
+    ],
+    "description": "Snippet for use svg sprites"
+  },
+  "navigation": {
+    "scope": "html",
+    "prefix": "navigation",
+    "body": [
+      "<nav class=\"nav\">",
+      "  <ul class=\"nav__list\">",
+      "    <li class=\"nav__item\"><a href=\"#\" class=\"nav__link\"></a></li>",
+      "    <li class=\"nav__item\"><a href=\"#\" class=\"nav__link\"></a></li>",
+      "    <li class=\"nav__item\"><a href=\"#\" class=\"nav__link\"></a></li>",
+      "  </ul>",
+      "</nav>"
+    ],
+    "description": "Snippet for navigation"
+  },
+  "burger": {
+    "scope": "html",
+    "prefix": "burger",
+    "body": [
+      "<button class=\"burger\" aria-label=\"Burger menu\">",
+      "  <span></span>",
+      "  <span></span>",
+      "  <span></span>",
+      "</button>"
+    ],
+    "description": "Snippet for burger button"
+  }
+}

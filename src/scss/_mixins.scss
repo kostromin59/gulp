@@ -1,0 +1,18 @@
+@mixin container($max-width: 1170px, $paddings: 15px) {
+  width: 100%;
+  max-width: calc($max-width + $paddings * 2);
+  margin: 0 auto;
+  padding: 0 $paddings;
+}
+
+@mixin font($font-family, $url, $weight: 400, $style: normal) {
+  @font-face {
+    font-family: "#{$font-family}";
+    src: 
+      url('../fonts/#{$url}.woff2') format("woff2"),
+      url('../fonts/#{$url}.woff') format("woff");
+    font-weight: #{$weight};
+    font-display: swap;
+    font-style: $style;
+  }
+}

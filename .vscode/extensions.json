@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-rename-tag",
+    "kamikillerto.vscode-colorize"
+  ]
+}

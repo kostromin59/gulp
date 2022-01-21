@@ -1,0 +1,12 @@
+@import "./vendor/normalize.css";
+@import "variables";
+@import "reset";
+@import "mixins";
+@import "components/header";
+@import "components/footer";
+
+.container {
+  // @include container(max-width, paddings);
+  // default: max-width: 1170px, paddings: 15px;
+  @include container();
+}
